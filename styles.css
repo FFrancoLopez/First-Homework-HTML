@@ -1,0 +1,61 @@
+
+body {
+  font-size: 1em;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color:lightgreen;
+    color: #333;
+    margin: 20px;
+  }
+/*titulos*/
+  .title { 
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    background-color: rgba(13, 207, 13, 0.342);
+    color: black;
+    margin: 1em 0 0 0;
+    padding: 0.2em 1em;
+    
+  }
+
+  /* menu desplegable local */
+  #menu {
+    border: 0.2em solid gray;
+    margin: 1.5em;
+    padding: 0.2em 1em;
+    
+  }
+/*enlaces del menu. atajos a la misma pagina*/
+  .enlaceLocal:hover {
+    color: rgb(206, 9, 9);
+    font-size: 1em;
+    font-family: fantasy;
+    
+  }
+/*enlaces del formulario. direccionan a nueva pestaña*/
+  .enlaceExterno {
+    color: blue;
+    font-family: sans-serif;
+
+  }
+/*imagenes de los titulos*/
+  .imgTitle {
+    margin: auto;
+    width: 500px;
+    border: 10px solid rgba(5, 255, 5, 0.377);
+
+  }
+/*titulo principal de la pagina*/
+  #principal {
+    font-size: 3.5em;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: rgba(13, 207, 13, 0.342);
+    text-align: center;
+    margin: auto;
+  }
+/*titulo del formulario*/
+#formulario {
+  font-size: 2em;
+  font-family: unset;
+  text-align: center;
+  background-color: rgba(13, 207, 13, 0.342) ;
+}
+ 
